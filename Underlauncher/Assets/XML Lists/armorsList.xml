@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Armor Name ="Nothing" ID ="0"/>
+  <Armor Name ="Bandage" ID ="4" DF ="0"/>
+  <Armor Name ="Faded Ribbon" ID ="12" DF ="5"/>
+  <Armor Name ="Manly Bandanna" ID ="15" DF="7" />
+  <Armor Name ="Old Tutu" ID ="24" DF="10"/>
+  <Armor Name ="Cloudy Glasses" ID ="44" DF="5"/>
+  <Armor Name ="temy armor" ID ="64" DF="20" AT="10"/>
+  <Armor Name ="Stained Apron" ID ="46" DF="11"/>
+  <Armor Name ="Cowboy Hat" ID ="48" DF="12" AT="5"/>
+  <Armor Name ="Heart Locket" ID ="50" DF="15"/>
+  <Armor Name ="The Locket" ID ="53" DF="99"/>
+</Root>

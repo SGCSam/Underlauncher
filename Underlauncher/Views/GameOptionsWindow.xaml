@@ -1,0 +1,18 @@
+﻿<local:SharpWindow x:Class="Underlauncher.GameOptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Underlauncher"
+        mc:Ignorable="d"
+        Title="Game Options" Width="350" Height="389" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Margin="0,40,0,0">
+            <TextBlock Text="Genocide Effects" Style="{StaticResource TextBlock.Header}"/>
+            <Button x:Name="clearGenocideButton" Content="CLEAR EFFECTS" Width="200" Margin="0,0,0,10" local:Button.Points="1,0 7,0 7,6 13,6 13,0 19,0 19,6 16,6 16,9 13,9 13,11 16,11 16,14 19,14 19,20 13,20 13,14 7,14 7,20 1,20 1,14 4,14 4,11 7,11 7,9 4,9 4,6 1,6" Click="clearGenocideButton_Click"/>
+            <Button x:Name="setSoullessButton" Content="ACTIVATE EFFECTS" Width="200" Margin="0,0,0,30" local:Button.Points="0,9 0,1 3,1 3,9 17,9 17,1 20,1 20,9 3,9 3,13 3,16 6,16 6,19 14,19 14,16 17,16 17,13 14,13 14,16 6,16 6,13 3,13 3,9" Click="setSoullessButton_Click" />
+            <TextBlock Text="Saves" Style="{StaticResource TextBlock.Header}"/>
+            <Button x:Name="backupButton" Content="BACKUP CURRENT SAVE" Width="200" local:Button.Points="9,0 10,0 10,2 11,2 11,4 12,4 12,7 15,7 15,8 18,8 18,9 20,9 20,10 18,10 18,11 15,11 15,12 13,12 13,16 12,16 12,18 11,18 11,20 10,20 10,18 9,18 9,16 8,16 8,13 6,13 6,12 2,12 2,11 0,11 0,10 2,10 2,9 4,9 4,8 7,8 7,4 8,4 8,2 9,2" Click="backupButton_Click" />
+        </StackPanel>
+    </Grid>
+</local:SharpWindow>

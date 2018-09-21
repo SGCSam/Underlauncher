@@ -1,0 +1,189 @@
+﻿<local:SharpWindow x:Class="Underlauncher.SaveEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Underlauncher"
+        mc:Ignorable="d"
+        Title="Save Editor" Width="783" Height="610" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Loaded="SharpWindow_Loaded" Background="Black">
+
+    <Grid x:Name="windowGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TabControl>
+            <TabItem Header="FRISK'S STATS">
+                <StackPanel Margin="20">
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="nameBox" local:TextBoxExtensions.Header="Name" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="6"/>
+                        <ComboBox x:Name="locationCombo" Grid.Column="1" local:TextBoxExtensions.Header="Location" SelectionChanged="SelectionChanged"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="LOVECombo" local:TextBoxExtensions.Header="LOVE" Margin="0,0,10,0" SelectionChanged="SelectionChanged"/>
+                        <TextBox x:Name="killsBox" Grid.Column="1" local:TextBoxExtensions.Header="Kills" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                        <TextBox x:Name="GOLDBox" Grid.Column="2" local:TextBoxExtensions.Header="GOLD" PreviewTextInput="PreviewTextInput" MaxLength="4"/> 
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="WEAPONS">
+                <Grid Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="weaponCombo" local:TextBoxExtensions.Header="Weapon" Margin="0,0,10,0" SelectionChanged="SelectionChanged"/>
+                    <ComboBox x:Name="armorCombo" Grid.Column="1" local:TextBoxExtensions.Header="Armor" SelectionChanged="SelectionChanged"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="BATTLE STATS">
+                <StackPanel Margin="20">
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="HPBox" local:TextBoxExtensions.Header="HP" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                        <TextBox x:Name="friskATBox" Grid.Column="1" local:TextBoxExtensions.Header="Base AT" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                        <TextBox x:Name="friskDFBox" Grid.Column="2" local:TextBoxExtensions.Header="Base DF" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="weaponATBox" local:TextBoxExtensions.Header="Items Total AT" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                        <TextBox x:Name="armorDFBox" Grid.Column="1" local:TextBoxExtensions.Header="Items Total DF" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="INVENTORY">
+                <StackPanel Margin="20" x:Name="inventoryGrid">
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="item1Combo" local:TextBoxExtensions.Header="Item 1" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="item2Combo" Grid.Column="1" local:TextBoxExtensions.Header="Item 2"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="item3Combo" local:TextBoxExtensions.Header="Item 3" Margin="0,0,10,0"/>
+                        <ComboBox  x:Name="item4Combo" Grid.Column="1" local:TextBoxExtensions.Header="Item 4"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="item5Combo" local:TextBoxExtensions.Header="Item 5" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="item6Combo" Grid.Column="1" local:TextBoxExtensions.Header="Item 6"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="item7Combo" local:TextBoxExtensions.Header="Item 7" Margin="0,0,10,0"/>
+                        <ComboBox  x:Name="item8Combo" Grid.Column="1" local:TextBoxExtensions.Header="Item 8"/>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="CELL">
+                <StackPanel Margin="20" x:Name="phoneItemsGrid">
+                    <CheckBox x:Name="torielCheck" Content="Toriel's Phone Number" Margin="0,0,0,10"/>
+                    <CheckBox x:Name="papyrusCheck" Content="Papyrus's Phone Number" Margin="0,0,0,10"/>
+                    <CheckBox x:Name="boxACheck" Content="Dimensional Box A" Margin="0,0,0,10"/>
+                    <CheckBox x:Name="boxBCheck" Content="Dimensional Box B"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="ROUTE">
+                <StackPanel Margin="20">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <RadioButton x:Name="neutralRadio" Content="Neutral" Margin="0,0,10,0" Checked="Checked"/>
+                        <RadioButton x:Name="pacifistRadio" Content="True Pacifist" Margin="0,0,10,0" Checked="Checked"/>
+                        <RadioButton x:Name="genocideRadio" Content="Genocide" Checked="Checked"/>
+                    </StackPanel>
+                    <ComboBox x:Name="routeCombo" local:TextBoxExtensions.Header="Specific Route" Margin="0,0,10,0" SelectionChanged="SelectionChanged"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="INI">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Template="{DynamicResource ScrollViewerControlTemplate1}">
+                    <StackPanel Margin="20">
+                        <TextBlock Text="General" Style="{StaticResource TextBlock.Header}"/>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="playedBox" local:TextBoxExtensions.Header="Time Played (mins)" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="3"/>
+                            <TextBox x:Name="deathsBox" Grid.Column="1" local:TextBoxExtensions.Header="Deaths" Margin="0,0,10,0" PreviewTextInput="PreviewTextInput" MaxLength="2"/>
+                            <TextBox x:Name="FUNBox" Grid.Column="2" local:TextBoxExtensions.Header="FUN" PreviewTextInput="PreviewTextInput" MaxLength="2"/>
+                        </Grid>
+                        <CheckBox x:Name="asrielCheck" Content="Skip Asriel's Story" Margin="0,0,0,30"/>
+                        <TextBlock Text="Reset" Style="{StaticResource TextBlock.Header}"/>
+                        <CheckBox x:Name="resetCheck" Content="True Reset Used" Margin="0,0,0,10"/>
+                        <CheckBox x:Name="doorCheck" Content="Mysterious Door Unlocked" Margin="0,0,0,30"/>
+                        <TextBlock Text="Flowey" Style="{StaticResource TextBlock.Header}"/>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="floweyMetBox" local:TextBoxExtensions.Header="Times Met" Margin="0,0,10,30" PreviewTextInput="PreviewTextInput" MaxLength="1"/>
+                            <ComboBox x:Name="floweyChatCombo" Grid.Column="1" local:TextBoxExtensions.Header="Post-Neutral Chat Progress" Margin="0,0,0,30"/>
+                        </Grid>
+                        <TextBlock Text="Toriel" Style="{StaticResource TextBlock.Header}"/>
+                        <ComboBox x:Name="pieCombo" local:TextBoxExtensions.Header="Pie Preference" Margin="0,0,0,30"/>
+                        <TextBlock Text="Sans" FontFamily="{StaticResource FontFamily.sansFont.Regular}" Style="{StaticResource TextBlock.Header}"/>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="sansMetBox" local:TextBoxExtensions.Header="Times Met" Margin="0,0,10,30" PreviewTextInput="PreviewTextInput" MaxLength="1"/>
+                            <ComboBox Grid.Column="1" x:Name="sansPasswordCombo" local:TextBoxExtensions.Header="Password Progress" Margin="0,0,0,30"/>
+                        </Grid>
+                        <TextBlock Text="Papyrus" FontFamily="{StaticResource FontFamily.papyrusFont.Regular}" Style="{StaticResource TextBlock.Header}"/>
+                        <TextBox x:Name="papyrusMetBox" local:TextBoxExtensions.Header="Times Met" Margin="0,0,0,30" PreviewTextInput="PreviewTextInput" MaxLength="1"/>
+                        <TextBlock Text="Mettaton" Style="{StaticResource TextBlock.Header}"/>
+                        <CheckBox x:Name="skipTurnCheck" Content="Skip Turn Around" Margin="0,0,0,30"/>
+                        <TextBlock Text="Photoshop Flowey" Style="{StaticResource TextBlock.Header}"/>
+                        <ComboBox x:Name="fightCombo" local:TextBoxExtensions.Header="Fight Stage" Margin="0,0,0,10"/>
+                        <CheckBox x:Name="skipPhotoshopCheck" Content="Force End of Fight Scene"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+
+        <StackPanel Grid.Row="1" Margin="32,0,32,32">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="121"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="132"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="loadButton" Content="LOAD EXISTING SAVE" Width="160" HorizontalAlignment="Left" Click="loadButton_Click" local:Button.Points="0,5 1,5 1,4 2,4 2,3 3,3 3,2 9,2 9,3 10,3 10,4 19,4 19,5 20,5 20,6 0,6 0,7 20,7 20,17 19,17 19,18 15,18 15,16 15,15 16,15 16,14 17,14 17,13 18,13 18,11 17,11 17,10 16,10 16,9 15,9 15,8 13,8 13,10 14,10 14,11 10,11 10,13 14,13 14,14 13,14 13,16, 15,16 15,18 1,18 1,17 0,17" />
+                <TextBlock Text="Save Name:" Grid.Column="1" VerticalAlignment="Center" Style="{StaticResource TextBlock.Content}"/>
+                <TextBox x:Name="saveNameBox" Grid.Column="2" Height="32" IsEnabled="True" PreviewTextInput="PreviewTextInput"/>
+                <Button x:Name="saveButton" Grid.Column="3" Content="CREATE SAVE" HorizontalAlignment="Right" Click="saveButton_Click" local:Button.Points="9,0 10,0 10,2 11,2 11,4 12,4 12,7 15,7 15,8 18,8 18,9 20,9 20,10 18,10 18,11 15,11 15,12 13,12 13,16 12,16 12,18 11,18 11,20 10,20 10,18 9,18 9,16 8,16 8,13 6,13 6,12 2,12 2,11 0,11 0,10 2,10 2,9 4,9 4,8 7,8 7,4 8,4 8,2 9,2" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</local:SharpWindow>

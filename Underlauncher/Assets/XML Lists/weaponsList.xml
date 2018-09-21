@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Weapon Name ="Nothing" ID ="0" AT="0"/>
+  <Weapon Name ="Stick" ID ="3" AT="0"/>
+  <Weapon Name ="Toy Knife" ID ="13" AT="3"/>
+  <Weapon Name ="Tough Gloves" ID ="14" AT="5"/>
+  <Weapon Name ="Ballet Shoes" ID ="25" AT="7"/>
+  <Weapon Name ="Torn Notebook" ID ="45" AT="2"/>
+  <Weapon Name ="Burnt Pan" ID ="47" AT="10"/>
+  <Weapon Name ="Empty Gun" ID ="49" AT="12"/>
+  <Weapon Name ="Worn Dagger" ID ="51" AT="15"/>
+  <Weapon Name ="Real Knife" ID ="52" AT="99"/>
+</Root>

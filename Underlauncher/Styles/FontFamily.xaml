@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Underlauncher">
+
+    <FontFamily x:Key="FontFamily.determinationFont.Regular">pack://application:,,,/Assets/Fonts/#Determination Mono</FontFamily>
+    <FontFamily x:Key="FontFamily.buttonFont.Regular">pack://application:,,,/Assets/Fonts/#MERCY</FontFamily>
+    <FontFamily x:Key="FontFamily.sansFont.Regular">pack://application:,,,/Assets/Fonts/#Comic Sans UT</FontFamily>
+    <FontFamily x:Key="FontFamily.papyrusFont.Regular">pack://application:,,,/Assets/Fonts/#Papyrus UT</FontFamily>
+
+</ResourceDictionary>

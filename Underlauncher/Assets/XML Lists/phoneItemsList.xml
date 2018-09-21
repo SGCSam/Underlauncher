@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Phone Name ="Toriel's Phone Number" ID ="206" />
+  <Phone Name ="Papyrus's Phone Number" ID ="210" />
+  <Phone Name ="Dimensional Box A" ID ="220" />
+  <Phone Name ="Dimensional Box B" ID ="221" />
+</Root>

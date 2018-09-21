@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <Location Name="Ruins: Start" ID="4" />
+    <Location Name="Ruins: Meeting Flowey" ID="5" />
+    <Location Name="Ruins: Entrance [SAVE]" ID="6" />
+    <Location Name="Ruins: Stepping Stones" ID="7" />
+    <Location Name="Ruins: Switch Puzzle" ID="8" />
+    <Location Name="Ruins: Dummy Encounter" ID="9" />
+    <Location Name="Ruins: Spike Puzzle" ID="10" />
+    <Location Name="Ruins: Long Corridor of Tension" ID="11" />
+    <Location Name="Ruins: Leaf Pile [SAVE]" ID="12" />
+    <Location Name="Ruins: Candy Pillar" ID="13" />
+    <Location Name="Ruins: Trapdoor Room" ID="14" />
+    <Location Name="Ruins: Rock Pressure Plate Puzzle" ID="15" />
+    <Location Name="Ruins: Trapdoor Maze Puzzle" ID="16" />
+    <Location Name="Ruins: Sentient Rock Puzzle" ID="17" />
+    <Location Name="Ruins: Mouse Hole [SAVE]" ID="18" />
+    <Location Name="Ruins: Napstablook Encounter" ID="19" />
+    <Location Name="Ruins: Spider Bake Sale" ID="20" />
+    <Location Name="Ruins: Froggit Room" ID="21" />
+    <Location Name="Ruins: Trapdoor Switch Puzzle" ID="22" />
+    <Location Name="Ruins: Pillar Puzzle Room 1" ID="23" />
+    <Location Name="Ruins: Pillar Puzzle Room 2" ID="24" />
+    <Location Name="Ruins: Pillar Puzzle Room 3" ID="25" />
+    <Location Name="Ruins: Pillar Puzzle Room 4" ID="26" />
+    <Location Name="Ruins: Pillar Puzzle Pit" ID="27" />
+    <Location Name="Ruins: 3-way Fork" ID="28" />
+    <Location Name="Ruins: Pre-Toy Knife Room" ID="29" />
+    <Location Name="Ruins: Toy Knife Room" ID="30" />
+    <Location Name="Ruins: Outside Home [SAVE]" ID="31" />
+    <Location Name="Home: Entrance Room" ID="32" />
+    <Location Name="Home: Living Room" ID="33" />
+    <Location Name="Home: Hallway" ID="34" />
+    <Location Name="Home: Toriel's Room" ID="35" />
+    <Location Name="Home: Frisk's Room" ID="36" />
+    <Location Name="Home: Kitchen" ID="37" />
+    <Location Name="Home Basement Room 1" ID="38" />
+    <Location Name="Home Basement Room 2" ID="39" />
+    <Location Name="Home Basement Room 3" ID="40" />
+    <Location Name="Home Basement: Toriel's Boss Battle" ID="41" />
+    <Location Name="Home Basement: Exit Corridor" ID="42" />
+    <Location Name="Home Basement: Flowey Encounter" ID="43" />
+    <Location Name="Snowdin Forest: Ruins Door" ID="44" />
+    <Location Name="Snowdin Forest: Sans Encounter in Forest" ID="45" />
+    <Location Name="Snowdin Forest: Box Road [SAVE]" ID="46" />
+    <Location Name="Snowdin Forest: Fishing Rod Room" ID="47" />
+    <Location Name="Snowdin Forest: Papyrus' Sentry Station" ID="48" />
+    <Location Name="Snowdin Forest: Doggo Battle" ID="49" />
+    <Location Name="Snowdin Forest: Compass Sign" ID="50" />
+    <Location Name="Snowdin Forest: Snowman Room" ID="51" />
+    <Location Name="Snowdin Forest: Electricity Maze" ID="52" />
+    <Location Name="Snowdin Forest: Snow Golf" ID="53" />
+    <Location Name="Snowdin Forest: Dogamy and Dogaressa's Sentry Stations" ID="54" />
+    <Location Name="Snowdin Forest: Monster Kidz Word Search" ID="55" />
+    <Location Name="Snowdin Forest: Papyrus's Spaghetti [SAVE]" ID="56" />
+    <Location Name="Snowdin Forest: Dog Marriage" ID="57" />
+    <Location Name="Snowdin Forest: XO Puzzle 1" ID="58" />
+    <Location Name="Snowdin Forest: XO Puzzle 2" ID="59" />
+    <Location Name="Snowdin Forest: Color Tile Puzzle" ID="60" />
+    <Location Name="Snowdin Forest: Dog House [SAVE]" ID="61" />
+    <Location Name="Snowdin Forest: Snow Papyrus and Sans" ID="62" />
+    <Location Name="Snowdin Forest: Sliding XO Puzzle" ID="63" />
+    <Location Name="Snowdin Forest: Teleporting Sans" ID="64" />
+    <Location Name="Snowdin Forest: Ice Cave Entrance" ID="65" />
+    <Location Name="Snowdin Forest: Greater Dog Encounter" ID="66" />
+    <Location Name="Snowdin Forest: Gauntlet of Deadly Terror" ID="67" />
+    <Location Name="Snowdin Town: Snowdin Town [SAVE]" ID="68" />
+    <Location Name="Snowdin Town: Wolf cooling the CORE" ID="69" />
+    <Location Name="Snowdin Town: Riverman Harbor" ID="70" />
+    <Location Name="Snowdin Town: Snowdin Inn Lobby" ID="71" />
+    <Location Name="Snowdin Town: Grillby's" ID="73" />
+    <Location Name="Snowdin Town: Librarby" ID="74" />
+    <Location Name="Snowdin Town: Papyrus's and Sans's House" ID="76" />
+    <Location Name="Snowdin Town: Papyrus's Room" ID="77" />
+    <Location Name="Snowdin Town: Sans's Room" ID="78" />
+    <Location Name="Snowdin Town: The Lab..." ID="80" />
+    <Location Name="Snowdin Town: HUMAN CAPTURE ZONE/Papyrus's Shed" ID="75" />
+    <Location Name="Snowdin: Papyrus Boss Battle" ID="81" />
+    <Location Name="Waterfall: Entrance" ID="82" />
+    <Location Name="Waterfall: Sans's Sentry Checkpoint [SAVE]" ID="83" />
+    <Location Name="Waterfall: Falling Rock Puzzle" ID="84" />
+    <Location Name="Waterfall: Old Tutu Room" ID="85" />
+    <Location Name="Waterfall: Meeting Monster Kid [SAVE]" ID="86" />
+    <Location Name="Waterfall: Bridge Seeds Puzzle 1" ID="87" />
+    <Location Name="Waterfall: Bridge Seeds Puzzle 2" ID="88" />
+    <Location Name="Waterfall: A Solitary Bench" ID="89" />
+    <Location Name="Waterfall: Telescope Puzzle" ID="90" />
+    <Location Name="Waterfall: Boat Plank" ID="91" />
+    <Location Name="Waterfall: Undyne Spear Encounter 1" ID="92" />
+    <Location Name="Waterfall: Hiding from Undyne in Bush" ID="93" />
+    <Location Name="Waterfall: Crystalized Cheese [SAVE]" ID="94" />
+    <Location Name="Waterfall: Mysterious Door..." ID="268" />
+    <Location Name="🕈︎✌︎❄︎☜︎☼︎☞︎✌︎☹︎☹︎🖳︎ 💣︎✡︎ ☼︎⚐︎⚐︎💣︎" ID="269" />
+    <Location Name="Waterfall: Sans's Telescope" ID="95" />
+    <Location Name="Waterfall: Nice Cream Stand" ID="96" />
+    <Location Name="Waterfall: Split Pathway" ID="97" />
+    <Location Name="Waterfall: Ballet Shoes Room" ID="98" />
+    <Location Name="Waterfall: Bird That Carries You" ID="99" />
+    <Location Name="Waterfall: Onionsan Encounter" ID="100" />
+    <Location Name="Waterfall: Shyren Battle" ID="101" />
+    <Location Name="Waterfall: Piano Puzzle" ID="102" />
+    <Location Name="Waterfall: Legendary Artifact Room" ID="103" />
+    <Location Name="Chara, look! The Music Comes From That Statue!" ID="104" />
+    <Location Name="Waterfall: Umbrella Room" ID="105" />
+    <Location Name="Waterfall: Rainy Path 1" ID="106" />
+    <Location Name="Waterfall: Rainy Path 2" ID="107" />
+    <Location Name="Waterfall: Castle View" ID="108" />
+    <Location Name="Waterfall: Umbrella Ledge" ID="109" />
+    <Location Name="Waterfall: Bridge [SAVE]" ID="110" />
+    <Location Name="Waterfall: Undyne Spear Encounter 2" ID="111" />
+    <Location Name="Waterfall: Bridge Collapse Room" ID="112" />
+    <Location Name="Waterfall: Garbage Dump Flower Bed" ID="113" />
+    <Location Name="Waterfall: Garbage Dump [SAVE]" ID="114" />
+    <Location Name="Waterfall: Mad Dummy Boss Battle" ID="115" />
+    <Location Name="Waterfall: Quiet Area [SAVE]" ID="116" />
+    <Location Name="Waterfall: Outside Undyne's House" ID="117" />
+    <Location Name="Waterfall: Undyne's House" ID="118" />
+    <Location Name="Waterfall: Outside Napstablook's House" ID="119" />
+    <Location Name="Waterfall: Napstablook's House" ID="120" />
+    <Location Name="Waterfall: Mettaton's House" ID="121" />
+    <Location Name="Waterfall: Snail Race" ID="122" />
+    <Location Name="Waterfall: Gerson's Shop" ID="124" />
+    <Location Name="Waterfall: Riverman Harbour	" ID="125" />
+    <Location Name="Waterfall: Before Mushroom Lights Maze" ID="126" />
+    <Location Name="Waterfall: Mushroom Lights Maze" ID="127" />
+    <Location Name="hOI!!!!!!!!!" ID="128" />
+    <Location Name="Waterfall: Lamp Maze" ID="129" />
+    <Location Name="Waterfall: Undyne Behind You" ID="130" />
+    <Location Name="Waterfall: Echo Flowers" ID="131" />
+    <Location Name="Waterfall: Monster Kid at Bridge" ID="132" />
+    <Location Name="Waterfall: Cave Exit" ID="133" />
+    <Location Name="Waterfall: Undyne Battle" ID="134" />
+    <Location Name="Waterfall: Pre-Hotland" ID="135" />
+    <Location Name="Waterfall: Welcome to Hotland!" ID="136" />
+    <Location Name="Hotland: Sans's Sentry Station" ID="137" />
+    <Location Name="Hotland: Water Cooler" ID="138" />
+    <Location Name="Hotland: Alphys's Lab Entrance [SAVE]" ID="139" />
+    <Location Name="Hotland: Riverman Harbour" ID="140" />
+    <Location Name="Hotland: Alphys's Lab Main Floor" ID="141" />
+    <Location Name="Hotland: Alphys's Lab Upstairs" ID="142" />
+    <Location Name="Hotland: Alphys's Lab Exit" ID="143" />
+    <Location Name="Hotland: Treadmill" ID="144" />
+    <Location Name="Hotland: Vents [SAVE]" ID="145" />
+    <Location Name="Hotland: Burnt Pan Room" ID="146" />
+    <Location Name="Hotland: Lasers 1" ID="147" />
+    <Location Name="Hotland: Door Puzzle 1 Main Room" ID="148" />
+    <Location Name="Hotland: Left Box Puzzle 1 Entrance" ID="149" />
+    <Location Name="Hotland: Left Box Puzzle 1" ID="150" />
+    <Location Name="Hotland: Right Box Puzzle 1 Entrance" ID="151" />
+    <Location Name="Hotland: Right Box Puzzle 1" ID="152" />
+    <Location Name="Hotland: Vents to Mettaton's Kitchen" ID="153" />
+    <Location Name="Hotland: Mettaton's Kitchen" ID="154" />
+    <Location Name="Hotland: View of the CORE 1 [SAVE]" ID="155" />
+    <Location Name="Hotland: Inside Elevator" ID="213" />
+    <Location Name="Hotland: Elevator L1" ID="214" />
+    <Location Name="Hotland: Elevator R1" ID="156" />
+    <Location Name="Hotland: Sans's Hot Dog Stand" ID="158" />
+    <Location Name="Hotland: Art Club Entrance" ID="159" />
+    <Location Name="Hotland: Art Club" ID="160" />
+    <Location Name="Hotland: Stained Apron Room" ID="161" />
+    <Location Name="Hotland: 3 Switches Treadmill Puzzle" ID="162" />
+    <Location Name="Hotland: Vents and Pressure Plates Puzzle" ID="163" />
+    <Location Name="Hotland: Mouse hole and Microwave [SAVE]" ID="164" />
+    <Location Name="Hotland: RG 01 and RG 02 Battle" ID="165" />
+    <Location Name="Hotland: MTT News Puzzle" ID="166" />
+    <Location Name="Hotland: View of the CORE 2" ID="167" />
+    <Location Name="Hotland: Elevator L2" ID="168" />
+    <Location Name="Hotland: Elevator R2" ID="157" />
+    <Location Name="Hotland: Muffet's Bake Sale" ID="170" />
+    <Location Name="Hotland: Door Puzzle 2 Main Room" ID="171" />
+    <Location Name="Hotland: South Puzzle 2 Entrance" ID="172" />
+    <Location Name="Hotland: South Puzzle 2" ID="173" />
+    <Location Name="Hotland: North Puzzle 2 Entrance" ID="174" />
+    <Location Name="Hotland: North Puzzle 2" ID="175" />
+    <Location Name="Hotland: Pre-Muffet Boss Battle [SAVE]" ID="176" />
+    <Location Name="Hotland: Muffet Boss Battle" ID="177" />
+    <Location Name="Hotland: Mettaton Poster" ID="178" />
+    <Location Name="Hotland: UNDERTALE: The Musical" ID="179" />
+    <Location Name="Hotland: Colored Tile Puzzle 2" ID="180" />
+    <Location Name="Hotland: Nice Cream Stand" ID="181" />
+    <Location Name="Hotland: Elevator L3" ID="169" />
+    <Location Name="Hotland: Elevator R3" ID="187" />
+    <Location Name="Hotland: MTT Hotel Entrance (Sans Encounter)" ID="182" />
+    <Location Name="Hotland: MTT Hotel Lobby [SAVE]" ID="183" />
+    <Location Name="Hotland: MTT Hotel Restaurant" ID="184" />
+    <Location Name="Hotland: MTT Hotel Room Corridor" ID="185" />
+    <Location Name="Hotland: MTT Hotel Room" ID="186" />
+    <Location Name="Hotland: Bridge to the CORE" ID="188" />
+    <Location Name="CORE: CORE Elevator" ID="189" />
+    <Location Name="CORE: CORE Flaming Pit" ID="190" />
+    <Location Name="CORE: First Encounter" ID="191" />
+    <Location Name="CORE: Wrong Laser Order" ID="192" />
+    <Location Name="CORE: Crossroads" ID="193" />
+    <Location Name="CORE: Wrong Room. Thanks Alphys." ID="194" />
+    <Location Name="CORE: Power Laser Puzzle" ID="195" />
+    <Location Name="CORE: Branch [SAVE]" ID="196" />
+    <Location Name="CORE: Ice Deposit Room" ID="197" />
+    <Location Name="CORE: West Mid" ID="198" />
+    <Location Name="CORE: West Upper" ID="199" />
+    <Location Name="CORE: North Upper" ID="200" />
+    <Location Name="CORE: East Upper" ID="201" />
+    <Location Name="CORE: East Mid" ID="202" />
+    <Location Name="CORE: East Lower" ID="203" />
+    <Location Name="CORE: North Mid" ID="204" />
+    <Location Name="CORE: West Puzzle" ID="205" />
+    <Location Name="CORE: Glamburger Trash Can" ID="206" />
+    <Location Name="CORE: 100G Trash Can" ID="207" />
+    <Location Name="CORE: Start of Battle Bridge" ID="208" />
+    <Location Name="CORE: Battle Bridge" ID="209" />
+    <Location Name="CORE: Pre-Mettaton Elevator Room" ID="210" />
+    <Location Name="CORE: Mettaton EX Boss Battle" ID="211" />
+    <Location Name="CORE: Outside Elevator to Castle" ID="212" />
+    <Location Name="CORE: Inside Elevator to Castle" ID="215" />
+    <Location Name="Castle: Entrance Elevator [SAVE]" ID="216" />
+    <Location Name="Castle: Elevator to Judgment Hall" ID="217" />
+    <Location Name="Castle: Path to New Home" ID="218" />
+    <Location Name="Castle: Outside New Home [SAVE]" ID="219" />
+    <Location Name="New Home: Entrance Room" ID="220" />
+    <Location Name="New Home: Living Room" ID="221" />
+    <Location Name="New Home: Hallway" ID="222" />
+    <Location Name="New Home: Asgore's Room" ID="223" />
+    <Location Name="New Home: Chara and Asriel's Room" ID="224" />
+    <Location Name="New Home: Kitchen" ID="225" />
+    <Location Name="New Home: Basement Room 1" ID="226" />
+    <Location Name="New Home: Basement Room 2" ID="227" />
+    <Location Name="New Home: Basement Room 3" ID="228" />
+    <Location Name="New Home: Basement Room 4" ID="229" />
+    <Location Name="New Home: Judgment Hall Elevator" ID="230" />
+    <Location Name="Castle: Judgment Hall [SAVE]" ID="231" />
+    <Location Name="Castle: Pre-Throne Room [SAVE]" ID="232" />
+    <Location Name="Castle: Coffin Stairs" ID="233" />
+    <Location Name="Castle: Coffins" ID="234" />
+    <Location Name="Castle: Throne Room [SAVE]" ID="235" />
+    <Location Name="Castle: The End [SAVE]" ID="236" />
+    <Location Name="Castle: The Barrier" ID="237" />
+    <Location Name="MY World, you idiot!" ID="999" />
+    <Location Name="Castle: Asriel and the Barrier" ID ="331" />
+    <Location Name="Castle: Door to a Phone Call" ID="238" />
+    <Location Name="The Surface: Mount Ebott" ID="241" />
+    <Location Name="The Surface: Frisk's Room" ID="285" />
+    <Location Name="☜︎■︎⧫︎❒︎⍓︎ ☠︎◆︎❍︎♌︎♏︎❒︎ 📂︎🖮︎" ID="264" />
+</Root>

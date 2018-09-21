@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <LOVE Level ="1" HP ="20" AT="10" DF="10" EXP="0"/>
+  <LOVE Level ="2" HP ="24" AT="12" DF="10" EXP="10"/>
+  <LOVE Level ="3" HP ="28" AT="14" DF="10" EXP="30"/>
+  <LOVE Level ="4" HP ="32" AT="16" DF="10" EXP="70"/>
+  <LOVE Level ="5" HP ="36" AT="18" DF="11" EXP="120"/>
+  <LOVE Level ="6" HP ="40" AT="20" DF="11" EXP="200"/>
+  <LOVE Level ="7" HP ="44" AT="22" DF="11" EXP="300"/>
+  <LOVE Level ="8" HP ="48" AT="24" DF="11" EXP="500"/>
+  <LOVE Level ="9" HP ="52" AT="26" DF="12" EXP="800"/>
+  <LOVE Level ="10" HP ="56" AT="28" DF="12" EXP="1200"/>
+  <LOVE Level ="11" HP ="60" AT="30" DF="12" EXP="1700"/>
+  <LOVE Level ="12" HP ="64" AT="32" DF="12" EXP="2500"/>
+  <LOVE Level ="13" HP ="68" AT="34" DF="13" EXP="3500"/>
+  <LOVE Level ="14" HP ="72" AT="36" DF="13" EXP="5000"/>
+  <LOVE Level ="15" HP ="76" AT="38" DF="13" EXP="7000"/>
+  <LOVE Level ="16" HP ="80" AT="40" DF="13" EXP="10000"/>
+  <LOVE Level ="17" HP ="84" AT="42" DF="14" EXP="15000"/>
+  <LOVE Level ="18" HP ="88" AT="44" DF="14" EXP="25000"/>
+  <LOVE Level ="19" HP ="92" AT="46" DF="14" EXP="50000"/>
+  <LOVE Level ="20" HP ="99" AT="48" DF="14" EXP="99999"/>
+</Root>

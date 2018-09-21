@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Track Filename="abc_123_a" VisibleName="✌👌👍" />
+  <Track Filename="mus_a2" VisibleName="Burn in Despair!" />
+  <Track Filename="mus_alphysfix" VisibleName="Alphys Upgrading Your Phone" />
+  <Track Filename="mus_amalgam" VisibleName="Amalgam" />
+  <Track Filename="mus_ambientwater" VisibleName="Waterfall Ambience" />
+  <Track Filename="mus_anothermedium" VisibleName="Another Medium" />
+  <Track Filename="mus_bad" VisibleName="Mettaton's Coming to Kill You" />
+  <Track Filename="mus_barrier" VisibleName="The Barrier" />
+  <Track Filename="mus_battle1" VisibleName="Enemy Approaching" />
+  <Track Filename="mus_battle2" VisibleName="Stronger Monsters" />
+  <Track Filename="mus_bergentruckung" VisibleName="Bergentruckung" />
+  <Track Filename="mus_bgflameA" VisibleName="Ambient Flames" />
+  <Track Filename="mus_birdnoise" VisibleName="Asgore's Garden" />
+  <Track Filename="mus_birdsong" VisibleName="Bird That Carries You Over A Disproportionately Small Gap" />
+  <Track Filename="mus_boss1" VisibleName="Heartache" />
+  <Track Filename="mus_cast_1" VisibleName="Credits - Intro" />
+  <Track Filename="mus_cast_2" VisibleName="Credits - Bonetrousle" />
+  <Track Filename="mus_cast_3" VisibleName="Credits - Snowy" />
+  <Track Filename="mus_cast_4" VisibleName="Credits - Spear of Justice" />
+  <Track Filename="mus_cast_5" VisibleName="Credits - Death by Glamour" />
+  <Track Filename="mus_cast_6" VisibleName="Credits - Bergentruckung" />
+  <Track Filename="mus_cast_7" VisibleName="Credits - Ending" />
+  <Track Filename="mus_chokedup" VisibleName="The Choice" />
+  <Track Filename="mus_churchbell" VisibleName="Judgment Hall Bell" />
+  <Track Filename="mus_computer" VisibleName="Computer Overloading" />
+  <Track Filename="mus_confession" VisibleName="Confession" />
+  <Track Filename="mus_coolbeat" VisibleName="Coolbeat" />
+  <Track Filename="mus_core" VisibleName="CORE" />
+  <Track Filename="mus_core_ambience" VisibleName="CORE Ambience" />
+  <Track Filename="mus_coretransition" VisibleName="CORE Approach" />
+  <Track Filename="mus_creepy_ambience" VisibleName="Creepy Ambience" />
+  <Track Filename="mus_crickets" VisibleName="Crickets Outside Frisk's Room" />
+  <Track Filename="mus_cymbal" VisibleName="Fade to White Cymbal" />
+  <Track Filename="mus_dance_of_dog" VisibleName="Dance of Dog" />
+  <Track Filename="mus_date" VisibleName="Dating Start!" />
+  <Track Filename="mus_date_fight" VisibleName="Dating Fight!" />
+  <Track Filename="mus_date_tense" VisibleName="Dating Tense!" />
+  <Track Filename="mus_deeploop2" VisibleName="Deep Loop 2" />
+  <Track Filename="mus_disturbing" VisibleName="Disturbing Amalgam" />
+  <Track Filename="mus_dogappear" VisibleName="Dog Appear" />
+  <Track Filename="mus_dogmeander" VisibleName="Dogamy and Dogaressa Surround" />
+  <Track Filename="mus_dogroom" VisibleName="Room of Dog" />
+  <Track Filename="mus_dogshrine_1" VisibleName="Mysterious Shrine" />
+  <Track Filename="mus_dogshrine_2" VisibleName="Absolutely Overfamiliar Shrine" />
+  <Track Filename="mus_dogsong" VisibleName="Dog Song" />
+  <Track Filename="mus_dontgiveup" VisibleName="Don't Give Up" />
+  <Track Filename="mus_doorclose" VisibleName="Door Close" />
+  <Track Filename="mus_dooropen" VisibleName="Door Open" />
+  <Track Filename="mus_drone" VisibleName="Alphys's Monitor" />
+  <Track Filename="mus_dummybattle" VisibleName="Dummy!" />
+  <Track Filename="mus_dununnn" VisibleName="Angry Dummy Spots You!" />
+  <Track Filename="mus_elevator" VisibleName="Elevator Moving" />
+  <Track Filename="mus_elevator_last" VisibleName="Long Elevator Moving" />
+  <Track Filename="mus_endarea_parta" VisibleName="Undertale - Part 1" />
+  <Track Filename="mus_endarea_partb" VisibleName="Undertale - Part 2" />
+  <Track Filename="mus_endingexcerpt1" VisibleName="Don't Give Up Excerpt 1" />
+  <Track Filename="mus_endingexcerpt2" VisibleName="Don't Give Up Excerpt 2" />
+  <Track Filename="mus_express_myself" VisibleName="Last Goodbye" />
+  <Track Filename="mus_f_6s_1" VisibleName="Photoshop Flowey First SOUL" />
+  <Track Filename="mus_f_6s_2" VisibleName="Photoshop Flowey Second SOUL" />
+  <Track Filename="mus_f_6s_3" VisibleName="Photoshop Flowey Third SOUL" />
+  <Track Filename="mus_f_6s_4" VisibleName="Photoshop Flowey Fourth SOUL" />
+  <Track Filename="mus_f_6s_5" VisibleName="Photoshop Flowey Fifth SOUL" />
+  <Track Filename="mus_f_6s_6" VisibleName="Photoshop Flowey Sixth SOUL" />
+  <Track Filename="mus_f_alarm" VisibleName="Photoshop Flowey Alarm" />
+  <Track Filename="mus_f_destroyed" VisibleName="Photoshop Flowey Destroyed" />
+  <Track Filename="mus_f_destroyed2" VisibleName="Photoshop Flowey Destroyed 2" />
+  <Track Filename="mus_f_destroyed3" VisibleName="Photoshop Flowey Destroyed 3" />
+  <Track Filename="mus_f_finale_1" VisibleName="Finale Part 1 Short" />
+  <Track Filename="mus_f_finale_1_l" VisibleName="Finale Part 1 Long" />
+  <Track Filename="mus_f_finale_2" VisibleName="Finale Part 2" />
+  <Track Filename="mus_f_finale_3" VisibleName="Finale Part 3" />
+  <Track Filename="mus_f_intro" VisibleName="Your Best Nightmare Intro" />
+  <Track Filename="mus_f_newlaugh" VisibleName="Photoshop Flowey Laugh 1" />
+  <Track Filename="mus_f_newlaugh_low" VisibleName="Photoshop Flowey Laugh 2" />
+  <Track Filename="mus_f_part1" VisibleName="Your Best Nightmare Part 1" />
+  <Track Filename="mus_f_part2" VisibleName="Your Best Nightmare Part 2" />
+  <Track Filename="mus_f_part3" VisibleName="Your Best Nightmare Unused Part" />
+  <Track Filename="mus_f_saved" VisibleName="Photoshop Flowey SOUL Healing " />
+  <Track Filename="mus_f_wind1" VisibleName="Ambient Wind 1" />
+  <Track Filename="mus_f_wind2" VisibleName="Ambient Wind 2" />
+  <Track Filename="mus_fallendown2" VisibleName="Fallen Down (Reprise)" />
+  <Track Filename="mus_fearsting" VisibleName="Undyne's Spotted You!" />
+  <Track Filename="mus_flowey" VisibleName="Your Best Friend" />
+  <Track Filename="mus_gameover" VisibleName="Determination" />
+  <Track Filename="mus_ghostbattle" VisibleName="Ghost Fight" />
+  <Track Filename="mus_harpnoise" VisibleName="Options Harp" />
+  <Track Filename="mus_hereweare" VisibleName="Here We Are" />
+  <Track Filename="mus_hotel" VisibleName="Hotel" />
+  <Track Filename="mus_hotel_battle" VisibleName="Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything " />
+  <Track Filename="mus_house1" VisibleName="Home" />
+  <Track Filename="mus_house2" VisibleName="Home (Music Box)" />
+  <Track Filename="mus_intronoise" VisibleName="Intro Gong" />
+  <Track Filename="mus_kingdescription" VisibleName="Determination (Unused)" />
+  <Track Filename="mus_lab" VisibleName="Alphys" />
+  <Track Filename="mus_leave" VisibleName="Respite" />
+  <Track Filename="mus_menu0" VisibleName="Start Menu - Version 1" />
+  <Track Filename="mus_menu1" VisibleName="Start Menu - Version 2" />
+  <Track Filename="mus_menu2" VisibleName="Start Menu - Version 3" />
+  <Track Filename="mus_menu3" VisibleName="Start Menu - Version 4" />
+  <Track Filename="mus_menu4" VisibleName="Start Menu - Version 5" />
+  <Track Filename="mus_menu5" VisibleName="Start Menu - Version 6" />
+  <Track Filename="mus_menu6" VisibleName="Start Menu - Version 7" />
+  <Track Filename="mus_mett_applause" VisibleName="Mettaton Applause" />
+  <Track Filename="mus_mett_cheer" VisibleName="Mettaton Cheer" />
+  <Track Filename="mus_mettafly" VisibleName="Last Episode!" />
+  <Track Filename="mus_mettaton_ex" VisibleName="Death by Glamour" />
+  <Track Filename="mus_mettaton_neo" VisibleName="Power of NEO" />
+  <Track Filename="mus_mettaton_pretransform" VisibleName="Oh My..." />
+  <Track Filename="mus_mettatonbattle" VisibleName="Metal Crusher" />
+  <Track Filename="mus_mettmusical1" VisibleName="Oh! One True Love - Part 1" />
+  <Track Filename="mus_mettmusical2" VisibleName="Oh! One True Love - Part 2" />
+  <Track Filename="mus_mettmusical3" VisibleName="Oh! One True Love - Part 3" />
+  <Track Filename="mus_mettmusical4" VisibleName="Oh! One True Love - Part 4" />
+  <Track Filename="mus_mettsad" VisibleName="For the Fans" />
+  <Track Filename="mus_mode" VisibleName="Hard Mode Guitar" />
+  <Track Filename="mus_mtgameshow" VisibleName="It's Showtime!" />
+  <Track Filename="mus_muscle" VisibleName="sans." />
+  <Track Filename="mus_musicbox" VisibleName="Memory" />
+  <Track Filename="mus_myemeow" VisibleName="Meow Meow" />
+  <Track Filename="mus_mysteriousroom2" VisibleName="Premonition" />
+  <Track Filename="mus_mystery" VisibleName="Mysterious Room" />
+  <Track Filename="mus_napstachords" VisibleName="Chill" />
+  <Track Filename="mus_napstahouse" VisibleName="Pathetic House" />
+  <Track Filename="mus_news" VisibleName="Live Report" />
+  <Track Filename="mus_news_battle" VisibleName="Death Report" />
+  <Track Filename="mus_ohyes" VisibleName="Mettaton Oh Yes" />
+  <Track Filename="mus_oogloop" VisibleName="Hotland Ambience" />
+  <Track Filename="mus_operatile" VisibleName="Oh! Dungeon" />
+  <Track Filename="mus_options_fall" VisibleName="Options - Autumn" />
+  <Track Filename="mus_options_summer" VisibleName="Options - Summer" />
+  <Track Filename="mus_options_winter" VisibleName="Options - Winter" />
+  <Track Filename="mus_papyrus" VisibleName="Nyeh heh heh!" />
+  <Track Filename="mus_papyrusboss" VisibleName="Bonetrousle" />
+  <Track Filename="mus_piano" VisibleName="Good Night" />
+  <Track Filename="mus_prebattle1" VisibleName="Anticipation" />
+  <Track Filename="mus_predummy" VisibleName="Pre-Angry Dummy Fight" />
+  <Track Filename="mus_race" VisibleName="Thundersnail" />
+  <Track Filename="mus_rain" VisibleName="Ambient Rain" />
+  <Track Filename="mus_rain_deep" VisibleName="Ambient Rain (Muffled)" />
+  <Track Filename="mus_repeat_1" VisibleName="Your Best Nightmare Part 3 Section 1" />
+  <Track Filename="mus_repeat_2" VisibleName="Your Best Nightmare Part 3 Section 2" />
+  <Track Filename="mus_reunited" VisibleName="Reunited" />
+  <Track Filename="mus_rimshot" VisibleName="BA DUM TSS" />
+  <Track Filename="mus_ruins" VisibleName="Ruins" />
+  <Track Filename="mus_ruinspiano" VisibleName="Ruins Piano (Unused)" />
+  <Track Filename="mus_sansdate" VisibleName="It's Raining Somewhere Else" />
+  <Track Filename="mus_sfx_a_grab" VisibleName="Asriel Grabs Chaos Saber" />
+  <Track Filename="mus_sfx_chainsaw" VisibleName="Chainsaw SFX" />
+  <Track Filename="mus_sfx_hypergoner_charge" VisibleName="Hypergoner Attack" />
+  <Track Filename="mus_sfx_hypergoner_laugh" VisibleName="Hypergoner Laugh" />
+  <Track Filename="mus_sfx_rainbowbeam_hold" VisibleName="Asriel's Final Attack" />
+  <Track Filename="mus_shop" VisibleName="Shop" />
+  <Track Filename="mus_sigh_of_dog" VisibleName="Sigh of Dog" />
+  <Track Filename="mus_silence" VisibleName="Silence" />
+  <Track Filename="mus_smallshock" VisibleName="Small Shock" />
+  <Track Filename="mus_smile" VisibleName="💧💣✋☹☜" />
+  <Track Filename="mus_snoresymphony" VisibleName="Snoring Determination" />
+  <Track Filename="mus_snowwalk" VisibleName="Sans Walking in Snow" />
+  <Track Filename="mus_snowy" VisibleName="Snowy" />
+  <Track Filename="mus_spider" VisibleName="Spider Dance" />
+  <Track Filename="mus_spoopy" VisibleName="Spooktune" />
+  <Track Filename="mus_spoopy_holiday" VisibleName="Ghouliday" />
+  <Track Filename="mus_spoopy_wave" VisibleName="Spookwave" />
+  <Track Filename="mus_st_happytown" VisibleName="Happy Town (Unused)" />
+  <Track Filename="mus_st_him" VisibleName="☟✋💣" />
+  <Track Filename="mus_st_meatfactory" VisibleName="Meat Factory (Unused)" />
+  <Track Filename="mus_st_troubledingle" VisibleName="Trouble Dingle (Unused)" />
+  <Track Filename="mus_star" VisibleName="Star (Unused)" />
+  <Track Filename="mus_sticksnap" VisibleName="Sans Snaps a Stick" />
+  <Track Filename="mus_story" VisibleName="Once Upon a Time" />
+  <Track Filename="mus_story_stuck" VisibleName="Once Upon a Time Glitched (Photoshop Flowey)" />
+  <Track Filename="mus_temshop" VisibleName="Tem Shop" />
+  <Track Filename="mus_temvillage" VisibleName="Temmie Village" />
+  <Track Filename="mus_tension" VisibleName="Unnecessary Tension" />
+  <Track Filename="mus_tone2" VisibleName="Sans Behind You - Section 1" />
+  <Track Filename="mus_tone3" VisibleName="Sans Behind You - Section 2" />
+  <Track Filename="mus_toomuch" VisibleName="But Nobody Came" />
+  <Track Filename="mus_toriel" VisibleName="Fallen Down" />
+  <Track Filename="mus_town" VisibleName="Snowdin Town" />
+  <Track Filename="mus_tv" VisibleName="Mettaton on TV" />
+  <Track Filename="mus_undyneboss" VisibleName="Spear of Justice" />
+  <Track Filename="mus_undynefast" VisibleName="Run!" />
+  <Track Filename="mus_undynepiano" VisibleName="She's Playing Piano" />
+  <Track Filename="mus_undynescary" VisibleName="Danger Mystery" />
+  <Track Filename="mus_undynetheme" VisibleName="Undyne" />
+  <Track Filename="mus_undynetruetheme" VisibleName="NGAHHH!!" />
+  <Track Filename="mus_vsasgore" VisibleName="ASGORE" />
+  <Track Filename="mus_waterfall" VisibleName="Waterfall" />
+  <Track Filename="mus_waterquiet" VisibleName="Quiet Water" />
+  <Track Filename="mus_wawa" VisibleName="Sans' Trombone" />
+  <Track Filename="mus_whoopee" VisibleName="Whoopee Cushion" />
+  <Track Filename="mus_wind" VisibleName="Ambient Wind 3" />
+  <Track Filename="mus_woofenstein" VisibleName="Amalgam Shower Curtain" />
+  <Track Filename="mus_woofenstein_loop" VisibleName="Amalgam Shower Curtain Loop" />
+  <Track Filename="mus_wrongnumbersong" VisibleName="Wrong Number Song" />
+  <Track Filename="mus_wrongworld" VisibleName="So Sorry's Theme" />
+  <Track Filename="mus_x_undyne" VisibleName="Battle Against a True Hero" />
+  <Track Filename="mus_x_undyne_pre" VisibleName="But The Earth Refused To Die" />
+  <Track Filename="mus_xpart" VisibleName="Hopes and Dreams" />
+  <Track Filename="mus_xpart_2" VisibleName="SAVE the World" />
+  <Track Filename="mus_xpart_a" VisibleName="His Theme - Part 1" />
+  <Track Filename="mus_xpart_b" VisibleName="His Theme - Part 2" />
+  <Track Filename="mus_xpart_back" VisibleName="Final Power" />
+  <Track Filename="mus_yourbestfriend_3" VisibleName="You Idiot" />
+  <Track Filename="mus_z_ending" VisibleName="An Ending" />
+  <Track Filename="mus_zz_megalovania" VisibleName="Megalovania" />
+  <Track Filename="mus_zzz_c" VisibleName="Chara" />
+  <Track Filename="mus_zzz_c2" VisibleName="Chara Jumpscare" />
+  <Track Filename="snd_ballchime" VisibleName="Ball Chime (Main Menu)" />
+  <Track Filename="snd_curtgunshot" VisibleName="Gun Shot" />
+  <Track Filename="snd_mushroomdance" VisibleName="Mushroom Dance (Unused)" />
+</Root>

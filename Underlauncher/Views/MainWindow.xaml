@@ -1,0 +1,69 @@
+﻿<local:SharpWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Underlauncher" x:Class="Underlauncher.MainWindow"
+        mc:Ignorable="d"
+        Title="Underlauncher" Width="560" Height="535" ResizeMode="CanMinimize" IsMainWindow="True" Loaded="SharpWindow_Loaded">
+
+    <Grid>
+        <Grid Width="468" VerticalAlignment="Bottom" Margin="0,0,0,40">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+                <TextBlock Text="Game" Style="{StaticResource TextBlock.Header}"/>
+                <Grid Margin="0,0,0,28">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="132"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="directoryBlock" Text="Path: Please locate Undertale.exe." VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight" LineHeight="15" Style="{StaticResource TextBlock.Content}" TextTrimming="CharacterEllipsis" />
+                    <TextBlock x:Name="versionBlock" Text="Version: N/A" VerticalAlignment="Bottom" LineStackingStrategy="BlockLineHeight" LineHeight="11" Style="{StaticResource TextBlock.Content}"/>
+                    <Button x:Name="browseButton" Grid.Column="1" Content="BROWSE" Width="112" Height="40" HorizontalAlignment="Right" local:Button.Points="0,5 1,5 1,4 2,4 2,3 3,3 3,2 9,2 9,3 10,3 10,4 19,4 19,5 20,5 20,6 0,6 0,7 20,7 20,17 19,17 19,18 1,18 1,17 0,17" Click="browseButton_Click"/>
+                </Grid>
+
+                <Grid Margin="0,0,0,30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="saveEditorButton" IsEnabled="False" Content="SAVE EDITOR" Width="136" Height="40" HorizontalAlignment="Left" local:Button.Points="9,0 10,0 10,2 11,2 11,4 12,4 12,7 15,7 15,8 18,8 18,9 20,9 20,10 18,10 18,11 15,11 15,12 13,12 13,16 12,16 12,18 11,18 11,20 10,20 10,18 9,18 9,16 8,16 8,13 6,13 6,12 2,12 2,11 0,11 0,10 2,10 2,9 4,9 4,8 7,8 7,4 8,4 8,2 9,2" Click="saveEditorButton_Click"/>
+                    <Button x:Name="musicEditorButton" IsEnabled="False" Content="MUSIC EDITOR" Grid.Column="1" Width="136" Height="40" local:Button.Points="0,12 2,12 2,10 8,10 8,12 10,12 10,0 18,0 18,4 20,4 20,8 18,8 18,6 16,6 16,4 12,4 12,18 10,18 10,20 4,20 4,18 2,18 2,16 0,16" Click="musicEditorButton_Click"/>
+                    <Button x:Name="optionsButton" IsEnabled="False" Content="GAME OPTIONS" Grid.Column="2" Width="136" Height="40" HorizontalAlignment="Right" local:Button.Points="0,8 3,8 3,4 4,4 4,3 8,3 8,0 12,0 12,3 16,3 16,4 17,4 17,8 20,8 20,12 17,12 17,16 16,16 16,17 12,17 12,20 8,20 8,17 4,17 4,16 3,16 3,12 0,12 0,8 6,8 7,8 7,7 8,7 8,6 12,6 12,7 13,7 13,8 14,8 14,12 13,12 13,13 12,13 12,14 8,14 8,13 7,13 7,12 6,12 6,8" Click="optionsButton_Click"/>
+                </Grid>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+                <TextBlock Text="Launch Options" Style="{StaticResource TextBlock.Header}"/>
+
+                <Grid Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="121"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Save:" VerticalAlignment="Center" Style="{StaticResource TextBlock.Content}"/>
+                    <ComboBox IsEnabled="False" x:Name="savesCombo" Grid.Column="1" Height="32"/>
+                </Grid>
+
+                <Grid Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="121"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Music Preset:" VerticalAlignment="Center" Style="{StaticResource TextBlock.Content}"/>
+                    <ComboBox IsEnabled="False" x:Name="presetsCombo" Grid.Column="1" Height="32"/>
+                </Grid>
+
+                <CheckBox x:Name="debugCheck" IsEnabled="False" Content="Enable Debug Mode" Margin="0,0,0,20"/>
+
+                <Button x:Name="launchButton" IsEnabled="False" Content="LAUNCH" Grid.Column="1" Width="136" Height="40" local:Button.Points="0,2 1,2 1,1 2,1 2,0 5,0 5,1 7,1 7,2 9,2 9,5 11,5 11,2 12,2 12,1 15,1 15,0 17,0 17,1 19,1 19,2 20,2 20,12 17,12 17,15 15,15 15,17 12,17 12,20 7,20 7,17 5,17 5,15, 2,15 2,12 0,12" Click="launchButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</local:SharpWindow>

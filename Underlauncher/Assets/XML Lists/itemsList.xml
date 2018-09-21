@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+   <Item Name ="Nothing" ID ="0" />
+   <Item Name ="Monster Candy" ID ="1" />
+   <Item Name ="Spider Donut" ID ="7" />
+   <Item Name ="Spider Cider" ID ="10" />
+   <Item Name ="Butterscotch Pie" ID ="11" />
+   <Item Name ="Snowman Piece" ID ="16" />
+   <Item Name ="Nice Cream" ID ="17" />
+   <Item Name ="Bisicle" ID ="19" />
+   <Item Name ="Unisicle" ID ="20" />
+   <Item Name ="Cinnamon Bunny" ID ="21" />
+   <Item Name ="Astronaut Food" ID ="35" />
+   <Item Name ="Crab Apple" ID ="37" />
+   <Item Name ="Sea Tea" ID ="41" />
+   <Item Name ="Abandoned Quiche" ID ="23" />
+   <Item Name ="Temmie Flakes" ID ="22" />
+   <Item Name ="Dog Salad" ID ="28" />
+   <Item Name ="Instant Noodles" ID ="36" />
+   <Item Name ="Hot Dog...?" ID ="38" />
+   <Item Name ="Hot Cat" ID ="39" />
+   <Item Name ="Junk Food" ID ="59" />
+   <Item Name ="Starfait" ID ="42" />
+   <Item Name ="Glamfait" ID ="40" />
+   <Item Name ="Legendary Hero" ID ="43" />
+   <Item Name ="Face Steak" ID ="61" />
+   <Item Name ="Popato Chisps" ID ="58" />
+   <Item Name ="Last Dream" ID ="55" />
+   <Item Name ="*bark bark*" ID ="27" />
+   <Item Name ="Dog Residue 1" ID ="29" />
+   <Item Name ="Dog Residue 2" ID ="30" />
+   <Item Name ="Dog Residue 3" ID ="31" />
+   <Item Name ="Dog Residue 4" ID ="32" />
+   <Item Name ="Dog Residue 5" ID ="33" />
+   <Item Name ="Dog Residue 6" ID ="34" />
+   <Item Name ="Mystery Key" ID ="60" />
+   <Item Name ="Hush Puppy" ID ="62" />
+   <Item Name ="Undyne's Letter" ID ="56" />
+   <Item Name ="Undyne's Letter EX" ID ="57" />
+   <Item Name ="Bad Memory" ID ="54" />
+</Root>

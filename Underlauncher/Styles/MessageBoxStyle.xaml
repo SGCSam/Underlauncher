@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Underlauncher"
+                    x:Class="Underlauncher.MessageBoxStyle">
+
+    <Style x:Key="UTMessageBoxStyle" TargetType="local:UTMessageBoxWindow" BasedOn="{StaticResource {x:Type Window}}">
+        <EventSetter Event="Loaded" Handler="MessageBoxLoaded" />
+        <EventSetter Event="KeyDown" Handler="KeyDown" />
+        <Setter Property="Width" Value="450"/>
+        <Setter Property="Height" Value="220"/>
+        <Setter Property="ResizeMode" Value="NoResize"/>
+        <Setter Property="WindowChrome.WindowChrome">
+            <Setter.Value>
+                <WindowChrome CaptionHeight="59" GlassFrameThickness="6" NonClientFrameEdges="None" ResizeBorderThickness="7" UseAeroCaptionButtons="False" />
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:UTMessageBoxWindow">
+                    <Grid Background="{StaticResource Shared.Static.Foreground}">
+                        <Grid Background="{StaticResource Shared.Static.Background}" Margin="6" ClipToBounds="True">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image x:Name="characterImage" Width="64" Height="64" Source="{TemplateBinding CharacterImageSource}" Stretch="Uniform" Margin="20,0" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
+                            <TextBlock x:Name="messageBlock" Grid.Column="1" Text="{TemplateBinding MessageText}" VerticalAlignment="Center" Margin="0,0,20,0" TextWrapping="Wrap" Style="{StaticResource TextBlock.Content}" />
+                            <!-- {TemplateBinding CharacterImageSource} -->
+                            <StackPanel x:Name="buttonPanel" Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="20">
+                                <!-- <Button x:Name="leftButton" Margin="0,0,10,0" />
+                                <Button x:Name="centreButton" />
+                                <Button x:Name="rightButton" Margin="10,0,0,0" /> -->
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

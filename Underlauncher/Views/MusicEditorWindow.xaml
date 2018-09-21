@@ -1,0 +1,55 @@
+﻿<local:SharpWindow x:Class="Underlauncher.MusicEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Underlauncher"
+        mc:Ignorable="d"
+        Title="Music Editor" Width="650" Height="500" Background="Black" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="40">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="0,0,15,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="newButton" Content="NEW PRESET" Margin="0,0,0,30" local:Button.Points="0,5 1,5 1,4 2,4 2,3 3,3 3,2 9,2 9,3 10,3 10,4 19,4 19,5 20,5 20,6 0,6 0,7 20,7 20,17 19,17 19,18 15,18 15,16 15,13 18,13 18,11 15,11 15,8 13,8 13,11 10,11 10,13 13,13 13,16 15,16 15,18 1,18 1,17 0,17" Click="newButton_Click" />
+            <TextBlock Text="Game Tracks" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5" LineStackingStrategy="BlockLineHeight" LineHeight="15" Style="{StaticResource TextBlock.Content}"/>
+            <ListView x:Name="gameTracksList" Grid.Row="2" Margin="0,0,0,30" SelectionChanged="SelectionChanged" />
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="15,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="loadButton" Content="LOAD PRESET" Margin="0,0,0,30" local:Button.Points="0,5 1,5 1,4 2,4 2,3 3,3 3,2 9,2 9,3 10,3 10,4 19,4 19,5 20,5 20,6 0,6 0,7 20,7 20,17 19,17 19,18 15,18 15,16 15,15 16,15 16,14 17,14 17,13 18,13 18,11 17,11 17,10 16,10 16,9 15,9 15,8 13,8 13,10 14,10 14,11 10,11 10,13 14,13 14,14 13,14 13,16, 15,16 15,18 1,18 1,17 0,17" Click="loadButton_Click" />
+            <TextBlock Text="Custom Tracks" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5" LineStackingStrategy="BlockLineHeight" LineHeight="15" Style="{StaticResource TextBlock.Content}"/>
+            <ListView x:Name="customTracksList" Grid.Row="2" Margin="0,0,0,30" SelectionChanged="SelectionChanged" />
+        </Grid>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="121"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="132"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Preset Name:" VerticalAlignment="Center" Style="{StaticResource TextBlock.Content}"/>
+                <TextBox x:Name="presetNameBox" Grid.Column="1" Height="32" IsEnabled="True"/>
+                <Button x:Name="saveButton" Grid.Column="2" Content="SAVE PRESET" HorizontalAlignment="Right" local:Button.Points="9,0 10,0 10,2 11,2 11,4 12,4 12,7 15,7 15,8 18,8 18,9 20,9 20,10 18,10 18,11 15,11 15,12 13,12 13,16 12,16 12,18 11,18 11,20 10,20 10,18 9,18 9,16 8,16 8,13 6,13 6,12 2,12 2,11 0,11 0,10 2,10 2,9 4,9 4,8 7,8 7,4 8,4 8,2 9,2" IsEnabled="False" Click="saveButton_Click"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</local:SharpWindow>
