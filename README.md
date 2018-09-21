@@ -21,7 +21,7 @@ If you're looking to download Underlauncher, you can head over to the releases t
 
 I'd highly recommend checking out the documentation of Underlauncher. It explains a lot about how the program works and includes some useful tips and tutorials too! You can use the either the direct link or the link to my website below to download the documentation:
 
-Direct Link: http://apps.sgcsam.com/Underlauncher%20Documentation.pdf
+Direct Link: http://apps.sgcsam.com/Underlauncher/Underlauncher%20Documentation.pdf
 
 Website Link: http://sgcsam.com/downloads/
         
