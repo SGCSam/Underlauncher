@@ -462,7 +462,8 @@ namespace Underlauncher
     public enum GenocideStates
     {
         Abyss,
-        Soulless
+        Soulless,
+        None
     }
 
     public enum Characters

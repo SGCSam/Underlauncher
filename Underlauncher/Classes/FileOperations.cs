@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.IO.Compression;
+using System.Security.Principal;
+using System.Security.AccessControl;
 
 //The FileOperations class handles all file manipulation, copying and pasting of files to and from the application's working directory and other
 //locations on the user's PC
@@ -218,7 +220,10 @@ namespace Underlauncher
         //setGenocide creates the files in Local Appdata to set the game into a Genocide state
         public static void setGenocide(GenocideStates state)
         {
-            switch(state)
+            File.Delete(Constants.AppdataPath + "system_information_963");
+            File.Delete(Constants.AppdataPath + "system_information_962");
+
+            switch (state)
             {
                 case GenocideStates.Soulless:
                     if (!File.Exists(Constants.AppdataPath + "system_information_963"))
@@ -232,6 +237,26 @@ namespace Underlauncher
                     {
                         File.Create(Constants.AppdataPath + "system_information_962").Dispose();
                     }
+                    break;
+
+                case GenocideStates.None:
+                    File.Create(Constants.AppdataPath + "system_information_963").Dispose();
+                    File.Create(Constants.AppdataPath + "system_information_962").Dispose();
+
+                    System.Security.AccessControl.FileSecurity readDeny = new System.Security.AccessControl.FileSecurity();
+                    readDeny.SetAccessRule(new System.Security.AccessControl.FileSystemAccessRule(
+                                            new SecurityIdentifier(WellKnownSidType.LocalSystemSid, null),
+                                            System.Security.AccessControl.FileSystemRights.Read,
+                                            System.Security.AccessControl.AccessControlType.Deny));
+
+                    System.Security.AccessControl.FileSecurity readDenyTwo = new System.Security.AccessControl.FileSecurity();
+                    readDenyTwo.SetAccessRule(new System.Security.AccessControl.FileSystemAccessRule(
+                                            new SecurityIdentifier(WellKnownSidType.LocalSystemSid, null),
+                                            System.Security.AccessControl.FileSystemRights.Read,
+                                            System.Security.AccessControl.AccessControlType.Deny));
+
+                    System.IO.File.SetAccessControl(Constants.AppdataPath + "system_information_963", readDeny);
+                    System.IO.File.SetAccessControl(Constants.AppdataPath + "system_information_962", readDenyTwo);
                     break;
             }
         }

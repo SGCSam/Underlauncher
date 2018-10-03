@@ -32,29 +32,19 @@ namespace Underlauncher
 
         private void clearGenocideButton_Click(object sender, RoutedEventArgs e)
         {
-            File.Delete(Environment.GetEnvironmentVariable("LocalAppData") + "//UNDERTALE//system_information_962");
-            File.Delete(Environment.GetEnvironmentVariable("LocalAppData") + "//UNDERTALE//system_information_963");
+            FileOperations.setGenocide(GenocideStates.None);
 
             Dictionary<Characters, string> messageDict = new Dictionary<Characters, string>()
             {
-                {Characters.Alphys, "O-O-Okay, the effects are cleared!\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Asgore, "Well human, those effects have been removed!\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Asriel, "Hey, those effects are gone, ok?\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Flowey, "YOU. CHEATING. IDIOT.\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Papyrus, "HUMAN, THOSE BAD EFFECTS ARE GONE. I NEVER STOPPED BELIEVING IN YOU!\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Sans, "you dirty hacker.\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Toriel, "Those effects are gone now, my child.\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.Undyne, "YOU PUNK! THOSE EFFECTS ARE GONE!\nTrue Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." },
-                {Characters.None, "Genocide effects have been cleared. True Pacifist ending will proceed as normal.\n\nWARNING: Ensure Steam Cloud Backup is disabled, or it may automatically " +
-                            "restore your Genocide state." }
+                {Characters.Alphys, "O-O-Okay, the effects are cleared!\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Asgore, "Well human, those effects have been removed!\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Asriel, "Hey, those effects are gone, ok?\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Flowey, "YOU. CHEATING. IDIOT.\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Papyrus, "HUMAN, THOSE BAD EFFECTS ARE GONE. I NEVER STOPPED BELIEVING IN YOU!\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Sans, "you dirty hacker.\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Toriel, "Those effects are gone now, my child.\nTrue Pacifist ending will proceed as normal." },
+                {Characters.Undyne, "YOU PUNK! THOSE EFFECTS ARE GONE!\nTrue Pacifist ending will proceed as normal." },
+                {Characters.None, "Genocide effects have been cleared. True Pacifist ending will proceed as normal." }
             };
 
             UTMessageBox.Show(messageDict, Constants.CharacterReactions.Positive, MessageBoxButton.OK);
